@@ -20,7 +20,6 @@ List<int> ListaF (bool estado, List<int> desordenada)
         {
             if (desordenada[j] > desordenada[i]) 
             {
-              // intercambiamos las posiciones de la lista
                 int temporal = desordenada[i];
                 desordenada[i] = desordenada[j];
                 desordenada[j] = temporal;
@@ -40,7 +39,6 @@ List<int> ListaF (bool estado, List<int> desordenada)
         {
             if (desordenada[j] < desordenada [i]) 
             {
-              // intercambiamos las posiciones de la lista
                 int temporal = desordenada[i];
                 desordenada[i] = desordenada[j];
                 desordenada[j] = temporal;          
