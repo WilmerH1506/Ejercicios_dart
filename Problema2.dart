@@ -13,11 +13,9 @@ final List<double > numeros = [1, 42,
 
 double suma = 0;
 
-for (double num  in numeros ){
+for (int i=0; i<numeros.length; i++){
 
-
- suma = suma + num;
-
+suma += numeros[i];
 
 }
 
